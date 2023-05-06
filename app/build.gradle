@@ -1,0 +1,60 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+android {
+    namespace 'com.harunkor.mediaedittransformer'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.harunkor.mediaedittransformer"
+        minSdk 24
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildFeatures {
+        dataBinding true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    def media3_version = "1.0.1"
+
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.5.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    //Media3 Transformer
+    implementation "androidx.media3:media3-transformer:$media3_version"
+    //Media3 Common
+    implementation "androidx.media3:media3-common:$media3_version"
+    //Media3 Effect
+    implementation "androidx.media3:media3-effect:$media3_version"
+    //AndroidFilePicker
+    implementation 'com.github.majidarabi:AndroidFilePicker:0.0.4'
+    //DataBinding-ktx
+    implementation 'com.wada811.databindingktx:databindingktx:7.0.0'
+
+}
