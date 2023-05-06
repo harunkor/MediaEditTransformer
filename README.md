@@ -12,7 +12,7 @@ The overall goal of Transformer is to provide an easy to use, reliable and perfo
 
 
 ## Screen 📱
-![Screenshot_20230507_012111](https://user-images.githubusercontent.com/7053364/236648778-74568e6e-b801-4891-b4b9-a92bd2424081.png)
+![Screenshot_20230507_012111](https://user-images.githubusercontent.com/7053364/236648778-74568e6e-b801-4891-b4b9-a92bd2424081.png | width=300)
 
 
 
