@@ -11,7 +11,8 @@ The overall goal of Transformer is to provide an easy to use, reliable and perfo
 
 ## Screen 📱
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png) | width=100)
+![image](https://user-images.githubusercontent.com/7053364/236649177-75cbddee-2fcd-4947-ba0d-ec61b9d43f80.png) = 250x)
+
 
 
 <a href="https://android-developers.googleblog.com/2023/05/media-transcoding-and-editing-transform-and-roll-out.html" target="_blank">Source: Android Developers Blog</a>
