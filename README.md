@@ -9,10 +9,9 @@ The creation of user-generated content is on the rise, and users are looking for
 The overall goal of Transformer is to provide an easy to use, reliable and performant API for transcoding and editing media, including support for customizing functionality, following the same API design principles to ExoPlayer. The library is supported on devices running Android 5.0 Lollipop (API 21) onwards and includes device-specific optimizations, giving developers a strong foundation to build on. This post gives an introduction to the new functionality and describes some of the many features we're planning for upcoming releases!
 
 
-
-
 ## Screen 📱
 
-![image]([http://url.to/image.png](https://user-images.githubusercontent.com/7053364/236648778-74568e6e-b801-4891-b4b9-a92bd2424081.png) = 250x)
+![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png) | width=100)
+
 
 <a href="https://android-developers.googleblog.com/2023/05/media-transcoding-and-editing-transform-and-roll-out.html" target="_blank">Source: Android Developers Blog</a>
